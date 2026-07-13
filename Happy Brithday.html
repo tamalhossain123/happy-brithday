@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>শুভ ২৩তম জন্মদিন</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👸</text></svg>">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts for Bengali Theme (Hind Siliguri) -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="progress-container">
+        <div class="container text-center">
+            <h5 class="romantic-heading mb-3" style="font-size: 1.6rem;"> STEP <i class="fa-solid fa-sparkles ms-2" style="font-size: 1rem;"></i></h5>
+            <div class="d-flex align-items-center justify-content-center gap-4">
+                <span class="step-counter-text" id="step-counter">01 / 23</span>
+                <div class="progress flex-grow-1" style="max-width: 500px;">
+                    <div id="main-progress-bar" class="progress-bar" role="progressbar" style="width: 4.34%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container flex-grow-1 d-flex align-items-center justify-content-center">
+        <div id="card-wrapper" class="w-100 fade-enter">
+            <!-- Injected by JS -->
+        </div>
+    </div>
+
+    <!-- Celebration Modal -->
+    <div class="modal fade" id="birthdayModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content text-center p-5">
+                <div class="modal-header justify-content-center">
+                    <h1 class="modal-title romantic-heading" style="font-size: 3.5rem;">Happy Birthday </h1>
+                </div>
+                <div class="modal-body">
+                    <i class="fa-solid fa-crown mb-4" style="color: var(--accent); font-size: 3rem;"></i>
+                    <p class="fs-3 fw-bold text-dark mb-3">My Dear Wife 👸</p>
+                    <p class="story-text" style="color: var(--text-muted);"> তুমি জীবনের আরও একটি সুন্দর অধ্যায়ে পা রাখলে। ২২টি বছর পেরিয়ে আজ ২৩-এ পদার্পণ করলে। জীবনের প্রতিটি নতুন ধাপ যেমন নতুন সম্ভাবনা, স্বপ্ন আর সাফল্যের বার্তা নিয়ে আসে, তেমনি এই ২৩তম বছরটিও তোমার জন্য অনেক সুখ, শান্তি, সাফল্য ও আনন্দ বয়ে আনুক এই কামনাই করি। হয়তো তোমার জন্য খুব বেশি কিছু করতে পারিনি, তবে সাধ্যের মধ্যে যতটুকু সম্ভব, তোমার মুখে একটু হাসি ফোটাতে পেরেছি এটাই আমার সবচেয়ে বড় প্রাপ্তি। শুভ ২৩তম জন্মদিন। আশা করি, এই নতুন বছরটি তোমার জীবনের সবচেয়ে সুন্দর, আনন্দময় এবং স্মরণীয় বছর হয়ে থাকবে। অনেক ভালো থেকো, সব স্বপ্ন পূরণ হোক।
+</p>
+                <div class="modal-footer justify-content-center mt-3">
+                    <button type="button" class="btn-premium w-auto px-5" data-bs-dismiss="modal" id="btn-close-modal">
+                        <i class="fa-solid fa-envelope-open-text me-2"></i> Read the letter
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Tamal Hossain • 2026
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
